@@ -84,6 +84,36 @@ body {
     border-radius: 8px;
 }
 
+.quote {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color:#1F2937;
+    font-family: sans-serif;
+    background-color: #E5E7EB;
+}
+
+.quote .text {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 100;
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-top: 50px;
+    margin-bottom: 10px;
+}
+
+.quote .author {
+    font-size: 18px;
+    font-weight: bold;
+    margin-left: 900px;
+    margin-right: 200px;
+    margin-top: 10px;
+    margin-bottom: 50px;
+    
+}
+
 ul {
     display: flex;
     gap: 15px;
