@@ -114,6 +114,47 @@ body {
     
 }
 
+.bottom {
+    display: flex;
+    justify-content: center;
+    color:#E5E7EB;
+    font-family: sans-serif;
+}
+
+.bottom .module {
+    display: flex;
+    background-color: #3882F6;
+    width: 800px;
+    justify-content: space-around;
+    align-items: center;
+    margin: 50px 100px;
+    border-radius: 8px;
+    padding: 40px;
+    gap: 15px;
+}
+
+.bottom .module .title {
+    font-size: 24px;
+    font-weight: bold;
+    margin: 10px 0px;
+}
+
+.bottom .module .text {
+    font-size: 18px;
+    margin: 10px 0px;
+}
+
+.bottom button {
+    background-color: #3882F6;
+    border-color: #E5E7EB;
+    border-radius: 8px;
+    padding: 10px 30px;
+    color:#E5E7EB;
+    border-style: solid;
+    font-weight: bold;
+    font-size: 15px;
+}
+
 ul {
     display: flex;
     gap: 15px;
