@@ -22,6 +22,41 @@ body {
     color: #E5E7EB
 }
 
+.top {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+    background-color: #1F2937;
+    font-family: sans-serif;
+}
+
+.top .container {
+    width: 500px;
+}
+
+.top .title {
+    font-size: 48px;
+    font-weight: 900;
+    color: #F9FAF8;
+    margin: 10px 0px;
+}
+
+.top .text {
+    font-size: 18px;
+    color:#E5E7EB;
+    margin: 10px 0px;
+}
+
+.top button {
+    background-color: #3882F6;
+    padding: 10px 25px;
+    border-radius: 8px;
+    color: white;
+    font-weight: bold;
+    border: 0;
+}
+
 ul {
     display: flex;
     gap: 15px;
