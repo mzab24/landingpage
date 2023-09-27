@@ -14,7 +14,7 @@ body {
 .header .main {
     font-size: 24px;
     font-weight: bold;
-    color: #E5E7EB
+    color: #E5E7EB;
 }
 
 .header .link {
@@ -55,6 +55,33 @@ body {
     color: white;
     font-weight: bold;
     border: 0;
+}
+
+.middle {
+    display: flex;
+    flex-direction: column;
+    font-family: sans-serif;
+}
+
+.middle .title {
+    text-align: center;
+    font-size: 36px;
+    font-weight: 900;
+    color:#1F2937;
+}
+
+.middle .container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.middle .text {
+    text-align: center;
+}
+
+.middle img {
+    border-radius: 8px;
 }
 
 ul {
