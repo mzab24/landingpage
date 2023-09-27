@@ -24,7 +24,8 @@ body {
 
 .top {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
+    gap: 30px;
     align-items: center;
     padding: 20px;
     background-color: #1F2937;
@@ -74,6 +75,7 @@ body {
     display: flex;
     justify-content: center;
     gap: 20px;
+    margin-bottom: 100px;
 }
 
 .middle .text {
@@ -92,6 +94,13 @@ body {
     color:#1F2937;
     font-family: sans-serif;
     background-color: #E5E7EB;
+}
+
+.quote .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 50px 20px;
 }
 
 .quote .text {
@@ -149,7 +158,7 @@ body {
     border-color: #E5E7EB;
     border-radius: 8px;
     padding: 10px 30px;
-    color:#E5E7EB;
+    color:white;
     border-style: solid;
     font-weight: bold;
     font-size: 15px;
@@ -166,7 +175,7 @@ body {
 
 ul {
     display: flex;
-    gap: 15px;
+    gap: 25px;
     list-style-type: none;
 }
 
